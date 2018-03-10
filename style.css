@@ -1,0 +1,58 @@
+body {
+    background: #ebebeb;
+  }
+header {
+    background: #777;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+footer {
+      background: #777;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: fixed;
+      clear: both;
+      text-align: center;
+  }
+section {
+    background: yellow;
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+    text-align: center;
+}
+aside {
+    background: green;
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+    text-align: center;
+}
+nav {
+    background: #777;
+}
+div { 
+    clear: both;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+article {
+    background: #777;
+}
+h1, h2, h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+}
+
