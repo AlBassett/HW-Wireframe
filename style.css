@@ -1,58 +1,86 @@
 body {
-    background: #ebebeb;
+    background: #777;
   }
 header {
-    background: #777;
-    top: 0;
-    left: 0;
-    right: 0;
+    background: #ebebeb;
     text-align: center;
+    padding: 20px;
+    margin: 20px;
   }
 footer {
-      background: #777;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      position: fixed;
+    background: #ebebeb;
       clear: both;
       text-align: center;
+      padding: 20px;
+      margin: 20px;
   }
-section {
-    background: yellow;
+.section {
+    background: #ebebeb;
     float: left;
-    margin: 0 1.5%;
-    width: 63%;
+    margin: 20px;
+    width: 50%;
     text-align: center;
-}
-aside {
-    background: green;
-    float: right;
-    margin: 0 1.5%;
-    width: 30%;
-    text-align: center;
-}
-nav {
-    background: #777;
-}
-div { 
-    clear: both;
-}
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-}
-article {
-    background: #777;
-}
-h1, h2, h3 {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom, padding-left, padding-right: 10px;
+    padding-top: 20px;
     font-size: 18px;
 }
+.aside {
+    background: #ebebeb;
+    float: left;
+    margin: 20px;
+    width: 40%;
+    height: 225px;
+    padding-top: 10px;
+    text-align: center;
+}
+.nav {
+    background: #ebebeb;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.div { 
+    clear: both;
+}
+.article {
+    background: #777;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
 
+.h1 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+    width: 33.3333333%;
+    background: #ebebeb;
+    padding: 10px;
+}
+
+.h2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+    width: 33.33333333%;
+    background: #ebebeb;
+    padding: 10px;
+}
+
+.h3 {
+    width: 33.33333333%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    float: left;
+    background: #ebebeb;
+    padding: 10px;
+}
+
+.p {
+    clear: both;
+    background: #ebebeb;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
