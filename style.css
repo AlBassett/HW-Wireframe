@@ -6,13 +6,15 @@ header {
     text-align: center;
     padding: 20px;
     margin: 20px;
+    color: #777;
   }
 footer {
     background: #ebebeb;
-      clear: both;
-      text-align: center;
-      padding: 20px;
-      margin: 20px;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: #777;
   }
 .section {
     background: #ebebeb;
@@ -32,12 +34,14 @@ footer {
     height: 225px;
     padding-top: 10px;
     text-align: center;
+    color: #777;
 }
 .nav {
     background: #ebebeb;
     padding: 20px;
     margin: 20px;
     text-align: center;
+    color: #777;
 }
 .div { 
     clear: both;
@@ -47,6 +51,7 @@ footer {
     padding: 20px;
     text-align: center;
     margin: 10px;
+    color: #ebebeb;
 }
 
 .h1 {
@@ -83,4 +88,5 @@ footer {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    color: #777;
 }
